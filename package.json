@@ -2,8 +2,11 @@
   "name": "test-app",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "ts-node-dev --respawn src/Union.ts",
+    "serve": "ts-node-dev src/function.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
